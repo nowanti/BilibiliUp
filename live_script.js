@@ -21,6 +21,7 @@
 
                 const match = source.match(/this\.emoticonsList\s*=\s*([a-zA-Z0-9_$]+)\.data\s*\|\|\s*\[\]/);
                 if (match) {
+                    const objName = match[1];
                     modules[id] = function (t, e, r) {
                         let source = originalModule.toString();
                         const targetStr = match[0];
@@ -68,7 +69,7 @@
         }
 
     }
-})(n.data),`;
+})(${objName}.data),`;
 
                         source = source.replace(targetStr, injectLogic + targetStr);
 
