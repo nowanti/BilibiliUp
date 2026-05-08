@@ -9,6 +9,8 @@
 // @match        https://www.bilibili.com/video/*
 // @grant        none
 // @run-at       document-idle
+// @updateURL   https://raw.githubusercontent.com/nowanti/BilibiliUp/main/bilibili-emoji.user.js
+// @downloadURL https://raw.githubusercontent.com/nowanti/BilibiliUp/main/bilibili-emoji.user.js
 // @homepage     https://github.com/abcdefghHIM/BilibiliUp
 // ==/UserScript==
 
