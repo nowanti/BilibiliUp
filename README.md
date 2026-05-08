@@ -1,49 +1,21 @@
 # BilibiliUp
 
-# 隐私政策
+B站充电表情包 - 篡改猴（Tampermonkey）脚本。在直播间、空间、视频页添加充电表情页。
 
-## 数据收集与存储
+## 安装
 
-插件不会收集、存储或上传任何用户的个人数据。
+1. 浏览器安装 [Tampermonkey](https://www.tampermonkey.net/) 扩展
+2. 点击 [`bilibili-emoji.user.js`](bilibili-emoji.user.js)，Tampermonkey 会自动提示安装
+3. 打开 B站 视频页 / 直播间 / 空间，表情栏会自动出现「充电表情」
 
-## 数据使用
+## 功能
 
-插件仅在本地浏览器中运行，不会与外部服务器通信。
+- 视频页：在评论区表情面板中注入 UP 主的充电表情
+- 直播间：在弹幕发送框表情面板中注入主播的充电表情
+- 空间页：在动态评论区表情面板中注入 UP 主的充电表情
 
-插件只会对您正在访问的 Bilibili 网页 进行界面修改，添加一个特定的表情页。
+## 说明
 
-## 数据共享
-
-插件不会向第三方分享任何数据。
-
-## 权限说明
-
-插件所需权限仅用于修改浏览器页面，确保正常显示表情页，不涉及隐私数据的访问。
-
-## 政策更新
-
-由于插件功能非常简单且不涉及数据处理，本隐私政策通常不会更改。如有必要修改，将在插件更新说明中公示。
-
-# Privacy Policy
-
-## Data Collection and Storage
-
-The extension does not collect, store, or upload any personal data.
-
-## Data Usage
-
-The extension runs locally in your browser and does not communicate with any external servers.
-
-It only modifies the interface of Bilibili web pages to add a specific emoji page.
-
-## Data Sharing
-
-The extension does not share any data with third parties.
-
-## Permissions
-
-Permissions requested by the extension are only used to modify the browser page for displaying the emoji page and do not involve access to private data.
-
-## Policy Updates
-
-Since this extension is simple and does not process data, this Privacy Policy is unlikely to change. If any modification is necessary, it will be announced in the extension’s update notes.
+- 需要登录 B站 才能使用
+- 纯本地运行，不收集任何数据
+- Fork 自 [abcdefghHIM/BilibiliUp](https://github.com/abcdefghHIM/BilibiliUp)，原版为 Chrome 扩展，本仓库改为篡改猴脚本
