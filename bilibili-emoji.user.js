@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Bilibili 充电表情
 // @namespace    https://github.com/abcdefghHIM/BilibiliUp
-// @version      1.2.5
-// @description  哔哩哔哩充电表情包 - 在直播间、空间、视频页添加充电表情页
+// @version      1.3.0
+// @description  哔哩哔哩充电表情包 - 在直播间、空间、视频页、动态页添加充电表情页
 // @author       abcdefghHIM
 // @match        https://live.bilibili.com/*
 // @match        https://space.bilibili.com/*
