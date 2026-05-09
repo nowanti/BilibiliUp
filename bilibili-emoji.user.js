@@ -7,6 +7,7 @@
 // @match        https://live.bilibili.com/*
 // @match        https://space.bilibili.com/*
 // @match        https://www.bilibili.com/video/*
+// @match        https://www.bilibili.com/opus/*
 // @grant        none
 // @run-at       document-idle
 // @updateURL   https://raw.githubusercontent.com/nowanti/BilibiliUp/main/bilibili-emoji.user.js
@@ -314,6 +315,8 @@
     } else if (href.includes('space.bilibili.com')) {
         await handleSpace();
     } else if (href.includes('www.bilibili.com/video')) {
+        await handleVideo();
+    } else if (href.includes('www.bilibili.com/opus')) {
         await handleVideo();
     }
 })();
